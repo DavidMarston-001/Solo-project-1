@@ -1,0 +1,135 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.hero {
+    background: url("https://rare-gallery.com/mocahbig/471752-Christopher-Balaskas-city-underwater-artwork-cityscape.jpg") no-repeat center / cover;
+    height: 343px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #F1FAEE;
+}
+
+h1 {
+    background-color: #ff006e; 
+    margin: 0px auto;
+    width: 225px;
+    font-size: 40px;
+    margin-bottom: 11px;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+h2 {
+    background-color: #267986;
+    width: 412px;
+    margin: 0px auto;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.activities {
+    background: #F1FAEE;
+    width: 100%;
+    height: 450px;
+}
+
+.surText {
+    font-size: 30px;
+    color: #1D3557;
+    margin: 0;
+    padding: 39px 0px 54px 0px;
+}
+
+.container, .container3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.img1 .img2 .img3 .img4 .img5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.border {
+    border-radius: 100px;
+}
+
+h4{
+    font-size: 25px;
+    color: #1D3557;
+    font-weight: 700px;
+    width: 183px;
+    margin: 18px auto 16px auto;
+}
+
+p {
+    font-size: 20px;
+    color: #1D3557;
+    font-weight: 400px;
+    width: 198px;
+    margin: 0 auto;
+}
+
+.container2 {
+    border-bottom: #1D3557 6px solid;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background: #A8DADC;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#pfp {
+    width: 180px;
+    height: 250px;
+    border-radius: 10px;
+    border: #260F26 2px solid;
+}
+
+#pfp:hover {
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/47c75624440879.5633440a53b36.jpg");
+}
+
+
+h3 {
+    margin: 0 0 14px 0;
+    font-size: 30px;
+    color: #1D3557;
+
+}
+
+.background {
+    background: #A97A83;
+}
